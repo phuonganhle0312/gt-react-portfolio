@@ -136,7 +136,7 @@ h3 {
    
 
 /*Footer*/
-#footer {
+.footer {
         position: fixed;
         left: 0;
         right: 0;
