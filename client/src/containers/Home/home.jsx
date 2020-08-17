@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import profile from "../../assets/images/profile.png";
+import profile from "../../assets/images/102407027_253321116004141_5268368461943275520_n.jpg";
 import "../../styles/style.css";
 
 
@@ -45,7 +45,7 @@ class Home extends Component{
             <section id="About">
               <section className="row">
                 <section className="col-xs-12 col-md-6">
-                  <img src="./assets/images/102407027_253321116004141_5268368461943275520_n.jpg" alt="My Photo" id="headshot" className="rounded-circle" width={250} height={250} />
+                  <img src={profile} alt="My Photo" id="headshot" className="rounded-circle" width={250} height={250} />
                   {/*About Me Content*/}
                 </section>
                 <section className="col-xs-12 col-md-6">

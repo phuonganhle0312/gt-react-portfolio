@@ -1,0 +1,148 @@
+/*Background*/
+body {
+    background-image: url(./images/XgREyQ.jpg)
+  
+}
+/*portfolio links*/
+.dinmoLink {
+    text-align: center;
+    margin-left: 120px;
+}
+.pwGen {
+    text-align: center;
+    margin-left: 100px;
+}
+.codeQuiz {
+    text-align: center;
+    margin-left: 120px;
+}
+.monsTerraLink {
+    text-align: center;
+    margin-left: 120px;
+}
+.teamLink {
+    text-align: center;
+    margin-left: 100px;
+}
+.readmeLink {
+    text-align: center;
+    margin-left: 120px;
+}
+/*links*/
+.linkedin {
+    text-align: center;
+}
+.resume {
+    text-align: center;
+}
+.github {
+    text-align: center;
+}
+.email {
+    text-align: center;
+}
+.phone {
+    text-align: center;
+}
+/*Index Container color*/
+#intro {
+    background-image: radial-gradient(rgba(212, 71, 71, 0.877), rgb(82, 4, 4));
+    margin-top: 20px;
+    margin-bottom: 20px;
+      
+}
+
+/*Heading Section*/
+#heading {
+    text-align: center;
+    color: rgb(233, 232, 227);
+    font-family: sans-serif;
+    font-stretch: extra-expanded;
+    font-size: 3rem ;
+    font-weight: bold;
+    text-shadow: 3px 3px rgba(153, 122, 21, 0.781)
+}
+/*About Me Section Break*/
+.sb {
+    background-color: transparent;
+    border: 0;
+    border-top: 1px solid rgb(245, 245, 245);
+    display: block;
+    height: 0;
+    margin: 3 auto 3;
+    text-align: center;
+    width: 50;}
+
+/*My Photo*/
+#headshot {
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    border:10px solid rgba(0, 0, 0, 0.329);
+    border-radius: 500px;
+    float: left;
+   
+}
+/*About Me Bio*/
+#bio {
+  
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+/*Contact Page*/
+
+#contactform {
+    background-image: radial-gradient(rgba(212, 71, 71, 0.877), rgb(82, 4, 4));
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.form-group {
+    text-align: center;
+    color: white;
+}
+.form-control {
+    text-align: center;
+}
+
+/*Portfolio*/
+#portfolio-section {
+    background-image: radial-gradient(rgba(212, 71, 71, 0.877), rgb(82, 4, 4));
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#portfolio-heading {
+  text-align: center;
+    color: rgb(233, 232, 227);
+    font-family: sans-serif;
+    font-stretch: extra-expanded;
+    font-size: 3rem ;
+    font-weight: bold;
+    text-shadow: 3px 3px rgba(153, 122, 21, 0.781)
+}
+h3 {
+    margin-left: 100px;
+    text-align: center;
+    color: white;
+}
+
+.img-thumbnail {
+    margin-left: 130px;
+}
+   
+
+/*Footer*/
+#footer {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100;
+        background-color: gray;
+        color: white;
+        text-align: center;
+}
