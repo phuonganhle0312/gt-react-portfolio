@@ -6,33 +6,32 @@ import "../../styles/style.css";
 class Home extends Component{
     render() {
       return (
-        <div>
-          <meta charSet="UTF-8" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <title>Phuong D. Le</title>
-          <link rel="stylesheet" href="./assets/main.css" />
-          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossOrigin="anonymous" />
-          {/* Bootstrap Navbar */}
-          <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a className="navbar-brand" href="#"><h2>Phuong Le</h2></a>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span className="navbar-toggler-icon" />
-            </button>
-            <section className="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul className="navbar-nav mr-auto">
-                <li className="nav-item">
-                  <a className="nav-link" href="index.html"><h6>About</h6><span className="sr-only">(current)</span></a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="./portfolio.html"><h6>Portfolio</h6></a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="./contact.html"><h6>Contact</h6></a>
-                </li>
-              </ul>
-            </section>
-          </nav>
-          {/*About Me Header*/}
+        // <div>
+        //   <meta charSet="UTF-8" />
+        //   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        //   <title>Phuong D. Le</title>
+        //   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossOrigin="anonymous" />
+        //   {/* Bootstrap Navbar */}
+        //   <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        //     <a className="navbar-brand" href="#"><h2>Phuong Le</h2></a>
+        //     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        //       <span className="navbar-toggler-icon" />
+        //     </button>
+        //     <section className="collapse navbar-collapse" id="navbarSupportedContent">
+        //       <ul className="navbar-nav mr-auto">
+        //         <li className="nav-item">
+        //           <a className="nav-link" href="index.html"><h6>About</h6><span className="sr-only">(current)</span></a>
+        //         </li>
+        //         <li className="nav-item">
+        //           <a className="nav-link" href="./portfolio.html"><h6>Portfolio</h6></a>
+        //         </li>
+        //         <li className="nav-item">
+        //           <a className="nav-link" href="./contact.html"><h6>Contact</h6></a>
+        //         </li>
+        //       </ul>
+        //     </section>
+        //   </nav>
+          
           <section className="container" id="intro">
             <section className="row">
               <section className="col" id="site title">
@@ -66,14 +65,14 @@ class Home extends Component{
               </section>
             </section>
           </section>
-          {/*Footer*/}
-          <section className="row" id="footer">
-            <section className="col-12">
-              <footer>© Copyright 2020 
-              </footer>
-            </section>
-          </section>
-        </div>
+        
+        //   <section className="row" id="footer">
+        //     <section className="col-12">
+        //       <footer>© Copyright 2020 
+        //       </footer>
+        //     </section>
+        //   </section>
+        // </div>
       );
     }
   }

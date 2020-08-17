@@ -13,33 +13,33 @@ import "../../styles/style.css";
 class Portfolio extends Component{
     render() {
       return (
-        <div>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="./assets/main.css" />
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossOrigin="anonymous" />
-        {/* Bootstrap Navbar */}
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-          <a className="navbar-brand" href="#"><h2>Phuong Le</h2></a>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon" />
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mr-auto">
-              <li className="nav-item">
-                <a className="nav-link" href="index.html"><h6>About</h6><span className="sr-only">(current)</span></a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="./portfolio.html"><h6>Portfolio</h6></a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="./contact.html"><h6>Contact</h6></a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        {/*Portfolio Section*/}
+        // <div>
+        // <meta charSet="UTF-8" />
+        // <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        // <title>My Portfolio</title>
+        // <link rel="stylesheet" href="./assets/main.css" />
+        // <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossOrigin="anonymous" />
+        // {/* Bootstrap Navbar */}
+        // <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        //   <a className="navbar-brand" href="#"><h2>Phuong Le</h2></a>
+        //   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        //     <span className="navbar-toggler-icon" />
+        //   </button>
+        //   <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        //     <ul className="navbar-nav mr-auto">
+        //       <li className="nav-item">
+        //         <a className="nav-link" href="index.html"><h6>About</h6><span className="sr-only">(current)</span></a>
+        //       </li>
+        //       <li className="nav-item">
+        //         <a className="nav-link" href="./portfolio.html"><h6>Portfolio</h6></a>
+        //       </li>
+        //       <li className="nav-item">
+        //         <a className="nav-link" href="./contact.html"><h6>Contact</h6></a>
+        //       </li>
+        //     </ul>
+        //   </div>
+        // </nav>
+      
         <section className="container" id="portfolio-section">
           <section className="row justify-content-center">
             <section className="col" id="site title">
@@ -107,14 +107,14 @@ class Portfolio extends Component{
                 </div>
               </div>
             </div></div></section>
-        {/*Footer*/}
-        <section className="row" id="footer">
-          <section className="col-12">
-            <footer>© Copyright 2020
-            </footer>
-          </section>
-        </section></div>
-    );
-  }
+    //     {/*Footer*/}
+    //     <section className="row" id="footer">
+    //       <section className="col-12">
+    //         <footer>© Copyright 2020
+    //         </footer>
+    //       </section>
+    //     </section></div>
+    // );
+      )}
 };
   export default Portfolio;
