@@ -7,6 +7,7 @@ import Portfolio from "./containers/Portfolio/Portfolio";
 import Contact from "./containers/Contact/Contact";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
+import "../../styles/style.css";
 
 function App() {
   useEffect(() => {
